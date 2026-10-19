@@ -1,0 +1,38 @@
+# Robots.txt for https://maklonskincare.id
+# Optimized for Google, Bing, and AI Search Engines (AEO/GEO)
+
+User-agent: *
+Allow: /
+Disallow: /forms/
+Disallow: /assets/vendor/
+
+# AI Search & Generative Engine Crawlers
+User-agent: Googlebot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+# Sitemap Location
+Sitemap: https://maklonskincare.id/sitemap.xml
